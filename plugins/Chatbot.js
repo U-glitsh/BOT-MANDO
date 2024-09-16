@@ -3,13 +3,13 @@ let handler = m => m;
  handler.all = async function (m) { 
  let chat = global.db.data.chats[m.chat]; 
  let responses; 
- if (/^حرب$/i.test(m.text)) { 
+ if (/^ماندو$/i.test(m.text)) { 
  responses = [ 
- 'نعم يعني ؟' 
+ 'أؤمر يقلبي' 
  ]; 
  } else if (/^بوووت|بموووووووووت|بوت$/i.test(m.text)) { 
      responses = [ 
-'بيقولو حرب'
+'اسمي ماندو'
      ]; 
    } else if (/^اوامر$/i.test(m.text)) { 
      responses = [ 
@@ -18,26 +18,6 @@ let handler = m => m;
  }else if (/^تيست$/i.test(m.text)) { 
      responses = [ 
        'شغال يروحي',  
-     ];
-  }else if (/^بحبك$/i.test(m.text)) { 
-     responses = [ 
-        'بحبك أكتر ❤,' ,  
-      ];
-  }else if (/^بموت فيك$/i.test(m.text)) { 
-     responses = [ 
-        'بعشقك 💟' ,  
-     ];
-  }else if (/^كسمك بوت$/i.test(m.text)) { 
-     responses = [ 
-        "كسمك عشان البوت" ,  
-     ];
-  }else if (/^كسم البوت$/i.test(m.text)) { 
-     responses = [ 
-        "كسمينك يقلبي ❤," ,  
-     ];
-  }else if (/^بحب البوت$/i.test(m.text)) { 
-     responses = [ 
-        "والبوت بيحبك 💟" ,  
      ];
  }
  if (responses) { 
