@@ -19,7 +19,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
     let additionalLink = args.join(" ").trim(); 
     
     if (!lister.includes(feature)) {
-        return conn.sendButton(m.chat, cap, '𝑺𝐻𝐴𝑊𝐴𝑍𝐴-𝐵𝛩𝑇', pp, [['دولـة',`${usedPrefix + command} دولة`]], null, null, m);
+        return conn.sendButton(m.chat, cap, 'Mando', pp, [['دولـة',`${usedPrefix + command} دولة`]], null, null, m);
     }
 
     if (feature === "دولة") {
@@ -71,7 +71,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
     message: {
       interactiveMessage: {
         body: { text: caption },
-        footer: { text: '7A' },
+        footer: { text: 'Mando' },
         header: {
           hasMediaAttachment: true,
           imageMessage: media.imageMessage,
@@ -154,7 +154,7 @@ return await conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id });
     message: {
       interactiveMessage: {
         body: { text: caption },
-        footer: { text: '7A' },
+        footer: { text: 'Mando' },
         header: {
           hasMediaAttachment: true,
           imageMessage: media.imageMessage,
