@@ -1,5 +1,5 @@
-//ميجو يحبكم 🤭❤️
-//اهينك اذا تغير المصدر
+//Mando
+//Mando
 //قناه المصدر
 //https://whatsapp.com/channel/0029VaRygQcATRSk29RI4P1x
 
@@ -7,7 +7,7 @@ import { googleImage } from '@bochilteam/scraper'
 let handler = async (m, { conn, text, usedPrefix, command }) => {
 if (!text) throw `️ *${usedPrefix + command} سوكونا*`
 const prohibited = ['بنات', 'بز', 'سكس']
-if (prohibited.some(word => m.text.toLowerCase().includes(word))) return m.reply('محظوره يعرص الصور دي 😂')      
+if (prohibited.some(word => m.text.toLowerCase().includes(word))) return m.reply('محظور')      
 try {
 const res = await googleImage(text)
 let image = res.getRandom()
