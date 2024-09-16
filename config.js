@@ -17,19 +17,19 @@ global.owner = [
   ['201210307869', '7A', true]
 ];
 
-global.ownername = '7A';
-global.ownernumber = '201210307869';
-global.myid = '201210307869@s.whatsapp.net';
+global.ownername = '201144987551';
+global.ownernumber = '201144987551';
+global.myid = '201144987551@s.whatsapp.net';
   
-global.suittag = ['201201210307869', '201033757279'];
-global.prems = ['201210307869', '201033757279'];
+global.suittag = ['201144987551'];
+global.prems = ['201144987551'];
 
-global.packname = '7A';
-global.author = '7A';
-global.wm = '7A';
-global.titulowm = '7A';
-global.titulowm2 = `7A`
-global.igfg = '7A';
+global.packname = 'Mando';
+global.author = 'Mando';
+global.wm = 'Mando';
+global.titulowm = 'Mando';
+global.titulowm2 = `Mando`
+global.igfg = 'Mando';
 global.wait = '「 ▓▓▓▓▓▒▒▒▒░░░ 」';
 
 
@@ -100,18 +100,18 @@ global.year = d.toLocaleDateString('en', { year: 'numeric' });
 global.time = d.toLocaleTimeString('en', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });
 
 
-global.wm2 = `${dia} ${fecha}\n7A`;
-global.gt = '7A';
-global.mysticbot = '7A';
+global.wm2 = `${dia} ${fecha}\nMando`;
+global.gt = 'Mando';
+global.mysticbot = 'Mando';
 global.channel = 'https://whatsapp.com/channel/0029Vaein6eInlqIsCXpDs3y';
-global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
+global.md = 'https://github.com/Mosscow00/BOT-MANDO/edit/active/config.js';
+global.mysticbot = 'https://github.com/Mosscow00/BOT-MANDO/edit/active/config.js';
 
 global.waitt = '*━────── •●• ──────━*\n> [ 🧞 ] جاري التحميل ...\n*━────── •●• ──────━*';
 global.waittt = '*━────── •●• ──────━*\n> [ 🧞 ] جاري التحميل ...\n*━────── •●• ──────━*';
 global.waitttt = '*[*━────── •●• ──────━*\n> [ 🧞 ] جاري التحميل ...\n*━────── •●• ──────━*';
 
-global.nomorown = '201210307869';
+global.nomorown = '201144987551';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 
 global.cmenut = '❖––––––『';
